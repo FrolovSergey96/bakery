@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+.container_bgm{
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1260px;
+}
+
+.pastry_group{
+    width: 1600px;
+    height: 900px;
+    background-image: url(..//img/pastry_bgm.png);
+}
+
+.nav_group{
+    background-image: url(..//img/nav_bgm.png);
+}
+
+.nav_main{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: #ffffff;
+}
+
+.nav{
+    font-family: 'Alegreya', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #ffffff;
+}
+
+.nav ul{
+    list-style: none;
+    padding-left: 0;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social{
+    color: #efebe4;
+    width: 75px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pastry_main{
+    margin: 0 auto;
+    height: 888px;
+    width: 939px;
+    background-image: url(..//img/shadow_circle.png);
+}
