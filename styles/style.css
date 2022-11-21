@@ -75,3 +75,22 @@ body{
     width: 939px;
     background-image: url(..//img/shadow_circle.png);
 }
+
+.pastry_main h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 213px;
+    font-family: 'Playfair Display';
+    font-size: 92px;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px #3d3029;
+    color: #ffffff;
+}
+
+.pastry_main h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #3d3029;
+    color: #ffffff;
+}
