@@ -16,6 +16,7 @@ body{
     width: 1600px;
     height: 900px;
     background-image: url(..//img/pastry_bgm.png);
+    margin-bottom: -50px;
 }
 
 .nav_group{
@@ -74,12 +75,16 @@ body{
     height: 888px;
     width: 939px;
     background-image: url(..//img/shadow_circle.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pastry_main h1{
     margin: 0;
     text-align: center;
-    padding-top: 213px;
+    padding-top: 250px;
     font-family: 'Playfair Display';
     font-size: 92px;
     font-weight: 700;
@@ -90,7 +95,136 @@ body{
 .pastry_main h2{
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
+    line-height: 36px;
     font-weight: 400;
+    letter-spacing: 0.1em;
     text-shadow: 0px 1px 0px #3d3029;
     color: #ffffff;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.pastry_button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #9e9c93;  
+    font-family: 'Alegreya';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 55px;
+}
+
+.transition{
+    width: 1600px;
+    margin-bottom: -50px;
+}
+
+.chef_group{
+    height: 760px;
+    background-image: url(..//img/chef_bgm.png);
+}
+
+.chef_main{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chef_left{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chef_right{
+    width: 630px;
+}
+
+.chef_left h1{
+    font-family: 'Alegreya';
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #56534c;
+    margin: 40px 0px 0px 0px;
+}
+
+.chef_left h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a47d5e;
+    margin: 0px 0px 60px 0px;
+}
+
+.chef_text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #56534c;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.chef_left h3{
+    font-family: 'Alegreya';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #56534c;
+    margin: 0px 0px 50px 0px;
+}
+
+.chef_insert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+.chef_name{
+    height: 60px;
+    width: 120px;
+    font-family: 'Alegreya';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #56534c;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chef_avatar{
+    width: 110px;
+    height: 110px;
+    box-shadow: 0px 7px 9px 0px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_text{
+    margin: 0;
+    font-family: 'Marck Script';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #a47d5e;
+    margin: 0px 20px 0px 20px;
 }
