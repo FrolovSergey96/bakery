@@ -142,10 +142,6 @@ body{
     align-items: center;
 }
 
-.chef_right{
-    width: 630px;
-}
-
 .chef_left h1{
     font-family: 'Alegreya';
     font-size: 48px;
@@ -227,4 +223,50 @@ body{
     letter-spacing: 0.025em;
     color: #a47d5e;
     margin: 0px 20px 0px 20px;
+}
+
+.chef_right{
+    width: 630px;
+}
+
+.chef_gallery{
+    padding: 50px 0px 0px 11px;
+}
+
+.chef_img{
+    margin: 0px 12px 12px 0px;
+    box-shadow: 0px 10px 10px 0px #000000;
+}
+
+.season_group{
+    height: 760px;
+    background-image: url(..//img/season_bgm.png);
+}
+
+.season_main{
+    padding: 140px 0px 0px 75px;
+    width: 965px;
+    height: 512px;
+    background-clip: content-box;
+    background-image: url(..//img/pancakes_bgm.png);
+    background-origin: content-box;
+}
+
+.season_rating{
+    padding: 186px 0px 0px 30px;
+}
+
+.breakfast_group{
+    height: 760px;
+    background-image: url(..//img/breakfast_bgm.png);
+}
+
+.sandwich_group{
+    height: 920px;
+    background-image: url(..//img/sandwich_bgm.png);
+}
+
+.footer{
+    height: 240px;
+    background-image: url(..//img/footer_bgm.png);
 }
