@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 
-.container_bgm{
+.container_bg{
     margin: 0 auto;
     width: 1600px;
 }
@@ -15,12 +15,12 @@ body{
 .pastry_group{
     width: 1600px;
     height: 900px;
-    background-image: url(..//img/pastry_bgm.png);
+    background-image: url(..//img/pastry_bg.png);
     margin-bottom: -50px;
 }
 
 .nav_group{
-    background-image: url(..//img/nav_bgm.png);
+    background-image: url(..//img/nav_bg.png);
 }
 
 .nav_main{
@@ -126,7 +126,7 @@ body{
 
 .chef_group{
     height: 760px;
-    background-image: url(..//img/chef_bgm.png);
+    background-image: url(..//img/chef_bg.png);
 }
 
 .chef_main{
@@ -167,7 +167,7 @@ body{
     letter-spacing: 0.1em;
     color: #56534c;
     text-align: center;
-    margin: 0px 0px 40px 0px;
+    margin: 0px 70px 40px 70px;
 }
 
 .chef_left h3{
@@ -240,7 +240,45 @@ body{
 
 .season_group{
     height: 760px;
-    background-image: url(..//img/season_bgm.png);
+    background-image: url(..//img/season_bg.png);
+}
+
+.season_ready{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    padding: 97px 0px 0px 965px;
+    background-clip: content-box;
+    background-image: url(..//img/ready_bg.png);
+    background-origin: content-box;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ready_text{
+    margin-top: 30px;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a47d5e;
+}
+
+.ready_number{
+    font-family: 'Alegreya';
+    font-size: 92px;
+    color: #dfc691;
+    line-height: 100%;
+}
+
+.ready_min{
+    font-family: 'Alegreya';
+    color: #979285;
+    font-size: 18px;
 }
 
 .season_main{
@@ -248,25 +286,320 @@ body{
     width: 965px;
     height: 512px;
     background-clip: content-box;
-    background-image: url(..//img/pancakes_bgm.png);
+    background-image: url(..//img/pancakes_bg.png);
     background-origin: content-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.season_left{
+    width: 397px;
+    height: 512px;
+    box-sizing: border-box;
 }
 
 .season_rating{
     padding: 186px 0px 0px 30px;
 }
 
+.season_right{
+    width: 568px;
+    height: 512px;
+    padding-left: 85px;
+    box-sizing: border-box;
+}
+
+.season_right h1{
+    margin: 80px 0px 0px 0px;
+    font-family: 'Alegreya';
+    font-size: 48px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #56534c;
+}
+
+.season_right h2{
+    margin: 12px 0px 70px 0px;
+    font-family: 'Alegreya';
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a47d5e;
+}
+
+.season_text{
+    padding: 0px 85px 95px 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #56534c;
+}
+
+.season_slider{
+    padding-right: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider_pic{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .breakfast_group{
     height: 760px;
-    background-image: url(..//img/breakfast_bgm.png);
+    background-image: url(..//img/breakfast_bg.png);
+}
+
+.breakfast_main{
+    display: flex;
+}
+
+.breakfast_left{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breakfast_left h1{
+    margin: 0px 0px 10px 0px;
+    padding: 89px 0px 0px 0px;
+    font-family: 'Alegreya';
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.breakfast_left h2{
+    margin-bottom: 39px;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #c8a593;
+}
+
+.breakfast_entry{
+    margin: 13px 0px 13px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry_name{
+    margin-bottom: 10px;
+    font-family: 'Alegreya';
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.entry_desc{
+    margin-bottom: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #c2beba;
+}
+
+.entry_price{
+    font-family: 'Alegreya';
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #dfc691;
+}
+
+.breakfast_right{
+    width: 630px;
+}
+
+.breakfast_menu{
+    padding: 89px 0px 0px 190px;
+    height: 600px;
+    width: 465px;
+    background-clip: content-box;
+    background-image: url(..//img/breakfast_menu.png);
+    background-origin: content-box;
+}
+
+.menu_main{
+    padding: 190px 59px 0px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_main h1{
+    margin: 0px 0px 40px 0px;
+    font-family: 'Alegreya';
+    font-size: 44px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #56534c;
+    text-align: center;
+}
+
+.menu_main span{
+    width: 324px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #56534c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.breakfast_button{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #9e9c93;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #a47d5e;
+    background: none;
 }
 
 .sandwich_group{
     height: 920px;
-    background-image: url(..//img/sandwich_bgm.png);
+    background-image: url(..//img/sandwich_bg.png);
+}
+
+.sandwich_group h1{
+    margin: 0px;
+    padding: 100px 0px 10px 0px;
+    font-family: 'Alegreya';
+    font-size: 48px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #56534c;
+    text-align: center;
+}
+
+.sandwich_group h2{
+    margin: 0px;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a47d5e;
+    text-align: center;
+}
+
+.sandwich_main{
+    display: flex;
+}
+
+.sandwich_left{
+    width: 398px;
+    padding-right: 128px;
+    box-sizing: border-box;
+}
+
+.sandwich_entry{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sandwich_pic{
+    margin-bottom: 23px;
+}
+
+.sandwich_entry h3{
+    margin: 0px;
+    padding: 0px 0px 23px 0px;
+    font-family: 'Alegreya';
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #a47d5e;
+    text-align: center;
+}
+
+.sandwich_entry h4{
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #56534c;
+    text-align: center;
+}
+
+.sandwich_right{
+    width: 862px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sandwich_ready{
+    margin-top: 67px;
+    margin-left: -210px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    background-clip: content-box;
+    background-image: url(..//img/ready_bg.png);
+    background-origin: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sandwich_right img{
+    padding: 90px 0px 0px 22px;
+    width: 840px;
+    height: 556px;
+}
+
+.sandwich_button{
+    position: absolute;
+    margin-top: 604px;
+    width: 171px;
+    height: 60px;
+    border: 1px solid #bfa162;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #bfa162;
 }
 
 .footer{
     height: 240px;
-    background-image: url(..//img/footer_bgm.png);
+    background-image: url(..//img/footer_bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_footer{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: #56534c;
 }
